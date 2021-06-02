@@ -112,7 +112,7 @@ body {
     position: absolute;
     right: 10%;
     top: 20%;
-    background-image: url('/images/5466-02.png') ;
+    background-image: url('../images/5466-02.png') ;
     background-size: cover;
     width: 250px;
     height: 250px;
@@ -121,7 +121,7 @@ body {
 }
 
 .conoceme .planet .astronauta {
-    background-image: url('/images/astronauta2.png');
+    background-image: url('../images/astronauta2.png');
     background-size: cover;
     position: absolute;
     width: 50px;
