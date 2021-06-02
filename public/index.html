@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jose Puerta</title>
+    <!--Bootstrap5-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <!--Iconos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--estilos principales-->
+    <link rel="stylesheet" href="../src/style.css">
+</head>
+<body>
+
+    <div class="container principal">
+            <main class="titulo glass">
+                <h1>
+                <i class="bi bi-code"></i>
+                <span>
+                    Bienvenido a mi portafolio
+                </span>
+                <i class="bi bi-code-slash"></i>
+                </h1>
+                <p>
+                Me llamo Jóse Puerta, desarrollador web
+                <span class="ml4">
+                    <span class="letters letters-1">FrontEnd</span>
+                    <span class="letters letters-2">Javascript</span>
+                    <span class="letters letters-3">Reactjs</span>
+                    <span class="letters letters-4">Css</span>
+                </span>
+                </p>
+            </main>
+            <nav class="navegacion">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                    </button>
+
+                    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton1">
+                    <li>
+                        <a class="dropdown-item active" href="#"><i class="bi bi-house"></i> Inicio</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="./conoceme.html"><i class="bi bi-file-person"></i> Conoceme</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#"><i class="bi bi-file-earmark-code"></i> Proyectos</a>
+                    </li>
+                    <li>
+                        <a class="dropdown-item" href="#"><i class="bi bi-envelope"></i> Contacto</a>
+                    </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+    </div>
+
+    <!-scripts-->
+    <script src="../src/index.js" type="module"></script>
+    <script src="../src/vanta/three.min.js"></script>
+    <script src="../src/vanta/vanta.rings.min.js"></script>
+    <script src="../src/vanta/vanta.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+</body>
+</html>
